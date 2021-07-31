@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PSTlab8</string>
+    <string name="title">Datos Personales</string>
+    <string name="firstname">Nombres:</string>
+    <string name="secondname">Apellidos:</string>
+    <string name="phone">Teléfono:</string>
+    <string name="mail">Correo Electrónico:</string>
+    <string name="mailexample">mail@example.com</string>
+    <string name="button">Enviar</string>
+    <string name="title2">Welcome to my first app</string>
+    <string name="inicio">INICIO</string>
+    <string name="url">PAGUINA WEB</string>
+    <string name="menu">MENU PRINCIPAL</string>
+    <string name="txturl">INGRESE UNA URL</string>
+    <string name="BUSCAR">BUSCAR</string>
+    <string name="VOLVER">VOLVER</string>
+    <string name="SECCION">INICIO SECCION:</string>
+    <string name="CORREO">REVISAR CORREO:</string>
+    <string name="ACERCA">ACERCA DE:</string>
+    <string name="USER">USUARIO:</string>
+    <string name="PASEWORD">CONTRASENA:</string>
+    <string name="MINOMBRE">BRYAN MARCELO</string>
+    <string name="MIAPELLIDO">TIGRERO PITA</string>
+    <string name="MIMATRICULA">201810793</string>
+    <string name="INGRESE">INGRESE</string>
+</resources>

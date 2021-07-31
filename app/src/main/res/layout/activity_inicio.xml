@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="721dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="9dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:rotationX="2"
+            android:text="@string/menu"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnInicio"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:onClick="iniciar"
+            android:text="@string/inicio" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnUrl"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:onClick="webview"
+            android:text="@string/url" />
+
+        <Button
+            android:id="@+id/btnseccion"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:onClick="seccion"
+            android:text="@string/SECCION" />
+
+        <Button
+            android:id="@+id/btncorreo"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:onClick="correo"
+            android:text="@string/CORREO" />
+
+        <Button
+            android:id="@+id/btnAcerca"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:onClick="acerca"
+            android:text="@string/ACERCA" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
