@@ -63,5 +63,12 @@
             android:onClick="acerca"
             android:text="@string/ACERCA" />
 
+        <Button
+            android:id="@+id/btnBDactivity"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:onClick="BD"
+            android:text="@string/BDactivity" />
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -33,4 +33,8 @@ public class InicioActivity extends AppCompatActivity {
         Intent intent = new Intent(this,AcercaDeActivity.class);
         startActivity(intent);
     }
+    public void BD(View v){
+        Intent intent = new Intent(this,BDActivity.class);
+        startActivity(intent);
+    }
 }
