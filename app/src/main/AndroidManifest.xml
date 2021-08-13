@@ -10,7 +10,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.PSTlab8">
+        <activity
+            android:name=".ConexionRemota"
+            android:exported="true" />
         <activity
             android:name=".BDActivity"
             android:exported="true" />
