@@ -33,4 +33,12 @@ RRFRFRfrfrfrf
         Intent intent = new Intent(this,AcercaDeActivity.class);
         startActivity(intent);
     }
+    public void BD(View v){
+        Intent intent = new Intent(this,BDActivity.class);
+        startActivity(intent);
+    }
+    public void conexion(View v){
+        Intent intent = new Intent(this,ConexionRemota.class);
+        startActivity(intent);
+    }
 }

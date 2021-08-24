@@ -23,4 +23,13 @@
     <string name="MIAPELLIDO">TIGRERO PITA</string>
     <string name="MIMATRICULA">201810793</string>
     <string name="INGRESE">INGRESE</string>
+    <string name="btningresar">INGRESAR</string>
+    <string name="btnxcodigo">POR CODIGO</string>
+    <string name="btnxdescripcion">POR DESCRIPCION</string>
+    <string name="btnmodificar">MODIFICAR</string>
+    <string name="btneliminar">ELIMINAR</string>
+    <string name="txtcodigo">INGRESE CODIGO</string>
+    <string name="txtdescripcion">INGRESE DESCRIPCION</string>
+    <string name="txtprecio">INGRESE PRECIO</string>
+    <string name="BDactivity">PRACTICA 10</string>
 </resources>
